@@ -1,5 +1,5 @@
 
 
 fn main() {
-    versioned_dependency::func(dep::Struct);
+    dependency_with_version_mismatch::func(dependency::Struct);
 }
